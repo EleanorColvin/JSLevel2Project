@@ -8,8 +8,17 @@
     <link rel = "stylesheet" href = "style.css">
     <script src = script.js></script>
 </head>
-<body>
-    <p>Finally, an exit. You have escaped!</p>
-
+<body onload = "checkIfKey();">
+    <span id = "exitScript">Hmmm... It looks like you need a key. Maybe you should try looking around some more.
+        Are there any good hiding places here?
+    </span>
+    <ul id = exit1>
+        <li><a href = "creakyCorridor.html">Return to the Creaky Corridor</a></li>
+        <li><a href = "foyer.html">Return to the start</a></li>
+        <li><a href = "index.html">RESET GAME</a></li>
+    </ul>
+    <ul id = exit2>
+        <li><a href = "index.html">RESET GAME</a></li>
+    </ul>
 </body>
 </html>
